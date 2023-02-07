@@ -1,0 +1,186 @@
+
+.body{
+    margin: 0px;
+    padding: 0px; 
+    /* background-color: #f4f2f3; */
+    background-color: #413F42;
+}
+
+.navbar{
+background-color: #915a3c;
+color: black;
+font-size: 20px;
+position: fixed;
+}
+
+
+/* -----------landingpage----------- */
+
+.home{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.hcon{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.landingPage{
+    background-color: #cfb79f;
+    background-image: url("../images/pic1.jpeg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+     /*------------- CARD--------------*/
+     /* .section-heading{
+        font-family: 'Poppins', sans-serif;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 2rem;
+      }
+      .section-p{
+         font-family: 'Poppins', sans-serif;
+         padding-left: 50px;
+         padding-right: 50px;
+         font-size: 1.3rem;
+       }
+     
+     #whycoco{
+         background-color: #e8e6e7;
+         background-blend-mode: multiply;
+         padding-top: 100px;  
+         background-image: url("images/pattern1.jpg");
+     }
+     
+     .row-card{
+         padding: 50px ;
+         margin: 0;
+     }
+     @media (min-width:40em){
+         .row-card {
+             padding: 50px 100px 120px 100px;
+             margin: 0;
+         }
+     }
+     .whycoco-column{
+         padding-top: 50px;
+     }
+     .card-header{
+         padding-top: 20px ;
+         font-family: 'Poppins', sans-serif;
+         border: none;
+     }
+     .card-body{
+         padding: 20px;
+         font-family: 'Raleway', sans-serif;
+     }
+     
+     @media (min-width:500px)
+     {
+         .card-body{
+             padding: 30px 20px 50px 20px;
+         }
+     }
+     
+     .card{
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 8px 8px 32px 8px rgba(31, 38, 135, 0.37);
+        border-radius: 20px;
+        border: none;
+     }
+     
+     .card-1{
+         border-left: 1px solid rgba(255, 255, 255, 0.1);
+     }
+     .card-2{
+         border-top: 1px solid rgba(255, 255, 255, 0.1);
+     }
+     .card-3{
+         border-right: 1px solid rgba(255, 255, 255, 0.1);
+     } */
+
+#whycoco{
+    background-color: #e8e6e7;
+    background-blend-mode: multiply;
+    padding-top: 100px;  
+     background-image: url('../images/pattern1.jpg');
+}
+.section-heading{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 2rem;
+}
+.section-p{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.3rem;
+}
+
+
+/* ------------contact form---------- */
+
+#features{
+    position: relative;  
+    padding: 4.5%;
+    background: #915a3c;
+}
+
+.features-row{  
+    background: white;
+    padding-bottom: 50px;
+}
+
+.row-contact{
+    padding: 50px;
+}
+
+.image{
+    /* max-width: 100%; */
+    object-fit: cover;
+    /* object-position: relative; */
+}
+@media(max-width:40em){
+    .image{
+        max-width: 100%;
+    }
+    .row-contact{
+        padding: 0 30px;
+    }
+}
+.form-label{
+    font-weight: 500;
+    color: #202A30;
+}
+.cnt-h3{
+    /* text-align: center; */
+    font-weight: 600;
+    color: #202A30;
+}
+
+/* ---------------------gallery------------------ */
+
+/* .bg-gal{
+    background-color: black;
+} */
+.d-block{
+    height: 620px;
+}
+.carousel-inner{
+    padding: 50px 140px 50px 140px;
+    background: #915a3c;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  border: 12px solid white;
+}
