@@ -171,12 +171,16 @@ position: fixed;
 /* .bg-gal{
     background-color: black;
 } */
+/* .d-block{
+    height: 620px;
+}
+.carousel-inner{
+    padding: 50px 140px 50px 140px;
+    background: #915a3c;
+}
 
-
-@media (max-width: 600px) {
-    .carousel-inner{
-        background: black;
-    }
-    }
-.carousel-inner{padding: 10px;
-    background: #915a3c;}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  border: 12px solid white;
+} */

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <!-- -----------css----------- -->
     <link rel="stylesheet" href="css/style.css">
@@ -56,12 +57,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
-@media (min-width:500px)
+/* @media (max-width:500px)
 {
     .card-body{
         padding: 30px 20px 50px 20px;
     }
-}
+} */
 
 .card{
    /* background: rgba(255, 255, 255, 0.06); */
@@ -78,6 +79,33 @@
 }
 .card-3{
     border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media(min-width:480px){
+  .d-block{
+    height: 620px;
+}
+.carousel-inner{
+    padding: 50px 140px 50px 140px;
+    background: #915a3c;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  border: 12px solid white;
+}
+}
+@media(max-width:480px){
+.carousel-inner{
+    padding: 20px;
+    background: #915a3c;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  border: 12px solid white;
+}
 }
 </style>
 
