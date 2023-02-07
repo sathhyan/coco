@@ -189,8 +189,8 @@ position: fixed;
     height: 270px;
     background: #321F28;
 }
-/* .content{padding: 30px 0 0 480px;}
-.col-1{
+.content{padding: 30px 0 0 480px;}
+.col-md-1{
     padding: 0;
 }
 .sapce1{margin-left:150px ;}
@@ -198,4 +198,4 @@ position: fixed;
 .height{padding-left:20px ;}
 .address{padding-left:200px ;
         padding-top:15px ;}
-.bi{font-size:27px;} */
+.bi{font-size:27px;}
