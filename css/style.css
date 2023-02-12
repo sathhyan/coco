@@ -106,7 +106,7 @@ position: fixed;
     background: #321F28;
 }
 
-@media(min-width:480px){
+@media(min-width:769px){
    .content{padding: 30px 0 0 0;}
 .col-md-1{
     padding: 0;
