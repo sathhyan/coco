@@ -101,28 +101,30 @@ position: fixed;
 /* ---------------------gallery------------------ */
 
 .height{
-    height: 270px;
+    /* height: 270px; */
+    padding-bottom: 10px;
     background: #321F28;
 }
 
 @media(min-width:480px){
-   .content{padding: 30px 0 0 480px;}
+   .content{padding: 30px 0 0 0;}
 .col-md-1{
     padding: 0;
 }
 .det-2{
 padding-left: 28px;
 }
-.sapce1{margin-left:150px ;}
 .sapce{font-size: 1.5rem;}
 .height{padding-left:20px ;}
 .address{padding-left:300px ;
         padding-top:15px ;}
-.cpyrht{
-    padding-top: 160px;
+.cpyrht{    
     color: white;
 }
 .rights{padding: 45px 0 0 280px;
 font-size: 0.8rem;}
     }
+    .content {
+        text-align: center;
+      }
     
