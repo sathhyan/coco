@@ -1,0 +1,132 @@
+
+.body{
+    margin: 0px;
+    padding: 0px; 
+    /* background-color: #f4f2f3; */
+    background-color: #413F42;
+}
+
+.navbar{
+background-color: #915a3c;
+color: black;
+font-size: 20px;
+position: fixed;
+}
+
+
+/* -----------landingpage----------- */
+
+.home{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.hcon{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.landingPage{
+    background-color: #cfb79f;
+    background-image: url("../images/pic1.jpeg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+#whycoco{
+    background-color: #e8e6e7;
+    background-blend-mode: multiply;
+    padding-top: 100px;  
+     background-image: url('../images/pattern1.jpg');
+}
+.section-heading{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 2rem;
+}
+.section-p{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.3rem;
+}
+
+
+/* ------------contact form---------- */
+
+#features{
+    position: relative;  
+    padding: 4.5%;
+    background: #915a3c;
+}
+
+.features-row{  
+    background: white;
+    padding-bottom: 50px;
+}
+
+.row-contact{
+    padding: 50px;
+}
+
+.image{
+    /* max-width: 100%; */
+    object-fit: cover;
+    /* object-position: relative; */
+}
+@media(max-width:40em){
+    .image{
+        max-width: 100%;
+    }
+    .row-contact{
+        padding: 0 30px;
+    }
+}
+.form-label{
+    font-weight: 500;
+    color: #202A30;
+}
+.cnt-h3{
+    /* text-align: center; */
+    font-weight: 600;
+    color: #202A30;
+}
+
+/* ---------------------gallery------------------ */
+
+.height{
+    /* height: 270px; */
+    padding-bottom: 10px;
+    background: #321F28;
+}
+
+@media(min-width:480px){
+   .content{padding: 30px 0 0 0;}
+.col-md-1{
+    padding: 0;
+}
+.det-2{
+padding-left: 28px;
+}
+.sapce{font-size: 1.5rem;}
+.height{padding-left:20px ;}
+.address{padding-left:300px ;
+        padding-top:15px ;}
+.cpyrht{    
+    color: white;
+}
+.rights{padding: 45px 0 0 280px;
+font-size: 0.8rem;}
+    }
+.content {
+    text-align: center;
+}
+.rights{
+    text-align: left;
+}
